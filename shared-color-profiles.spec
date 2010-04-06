@@ -1,6 +1,6 @@
 Summary: Color profiles to be used in color management aware applications
 Name: shared-color-profiles
-Version: 0.1.0
+Version: 0.1.1
 Release: %mkrel 1
 URL: http://github.com/hughsie/shared-color-profiles
 Source0: http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.gz
@@ -37,3 +37,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/color/icc/Argyll/*.ic?
 %dir %{_datadir}/shared-color-profiles/Argyll
 %{_datadir}/shared-color-profiles/Argyll/*
+
+# Oyranos
+%dir %{_datadir}/color/icc/Oyranos
+%{_datadir}/color/icc/Oyranos/*.ic?
+%dir %{_datadir}/shared-color-profiles/Oyranos
+%{_datadir}/shared-color-profiles/Oyranos/*
