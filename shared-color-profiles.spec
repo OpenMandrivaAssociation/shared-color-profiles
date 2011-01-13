@@ -1,6 +1,6 @@
 Summary: Color profiles to be used in color management aware applications
 Name: shared-color-profiles
-Version: 0.1.2
+Version: 0.1.3
 Release: %mkrel 1
 URL: http://github.com/hughsie/shared-color-profiles
 Source0: http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.gz
@@ -57,10 +57,10 @@ rm -rf $RPM_BUILD_ROOT
 %files extra
 %defattr(-,root,root,-)
 
-# Oyranos
-%dir %{_datadir}/color/icc/Oyranos
-%{_datadir}/color/icc/Oyranos/*
-%{_datadir}/shared-color-profiles/Oyranos/
+# Oysonar
+%dir %{_datadir}/color/icc/Oysonar
+%{_datadir}/color/icc/Oysonar/*
+%{_datadir}/shared-color-profiles/Oysonar/
 
 %_datadir/color/icc/Yamma
 %_datadir/%name/Yamma
