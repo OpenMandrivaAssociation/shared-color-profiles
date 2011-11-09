@@ -1,6 +1,6 @@
 Summary: Color profiles to be used in color management aware applications
 Name: shared-color-profiles
-Version: 0.1.4
+Version: 0.1.5
 Release: %mkrel 1
 URL: http://github.com/hughsie/shared-color-profiles
 Source0: http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.gz
@@ -16,7 +16,7 @@ useful for programs that are color management aware.
 %package extra
 Summary: More profiles for color management that are less commonly used
 Requires: %{name} >= %{version}-%{release}
-Group: System/Libraries	
+Group: System/Libraries
 
 %description extra
 More color profiles for color management that are less commonly used.
