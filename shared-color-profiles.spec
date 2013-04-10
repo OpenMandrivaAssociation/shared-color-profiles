@@ -1,22 +1,21 @@
-Summary: Color profiles to be used in color management aware applications
-Name: shared-color-profiles
-Version: 0.1.5
-Release: %mkrel 1
-URL: http://github.com/hughsie/shared-color-profiles
-Source0: http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.gz
-License: GPLv2+ and Public Domain
-Group: System/Libraries
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
-BuildArch: noarch
+Summary:	Color profiles to be used in color management aware applications
+Name:		shared-color-profiles
+Version:	0.1.6
+Release:	1
+URL:		http://github.com/hughsie/shared-color-profiles
+Source0:	http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.gz
+License:	GPLv2+ and Public Domain
+Group:		System/Libraries
+BuildArch:	noarch
 
 %description 
 The shared-color-profiles package contains various profiles which are 
 useful for programs that are color management aware.
 
 %package extra
-Summary: More profiles for color management that are less commonly used
-Requires: %{name} >= %{version}-%{release}
-Group: System/Libraries
+Summary:	More profiles for color management that are less commonly used
+Requires:	%{name} >= %{version}-%{release}
+Group:		System/Libraries
 
 %description extra
 More color profiles for color management that are less commonly used.
@@ -29,15 +28,10 @@ This may be useful for CMYK soft-proofing or for extra device support.
 %configure2_5x
 
 %install
-rm -rf $RPM_BUILD_ROOT
 %makeinstall_std
 
-%clean
-rm -rf $RPM_BUILD_ROOT
-
 %files
-%defattr(-,root,root,-)
-%doc AUTHORS COPYING ChangeLog
+%doc AUTHORS ChangeLog
 %{_datadir}/color/icc/*.ic?
 %dir %{_datadir}/shared-color-profiles
 
