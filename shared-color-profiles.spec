@@ -3,7 +3,7 @@ Name:		shared-color-profiles
 Version:	0.1.6
 Release:	1
 URL:		http://github.com/hughsie/shared-color-profiles
-Source0:	http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.gz
+Source0:	http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.xz
 License:	GPLv2+ and Public Domain
 Group:		System/Libraries
 BuildArch:	noarch
