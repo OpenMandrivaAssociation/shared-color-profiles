@@ -6,6 +6,7 @@ URL:		http://github.com/hughsie/shared-color-profiles
 Source0:	http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.xz
 License:	GPLv2+ and Public Domain
 Group:		System/Libraries
+BuildRequires:	argyllcms
 BuildArch:	noarch
 
 %description 
