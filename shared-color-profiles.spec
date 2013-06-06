@@ -7,7 +7,7 @@ Source0:	http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.ta
 License:	GPLv2+ and Public Domain
 Group:		System/Libraries
 BuildRequires:	argyllcms
-BuildRequires:	pkgconfig(colord)
+BuildRequires:	colord
 BuildArch:	noarch
 
 %description 
