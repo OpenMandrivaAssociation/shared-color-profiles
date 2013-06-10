@@ -38,10 +38,10 @@ This may be useful for CMYK soft-proofing or for extra device support.
 %dir %{_datadir}/shared-color-profiles
 
 # Argyll
-%{_datadir}/shared-color-profiles/Argyll/
+#%{_datadir}/shared-color-profiles/Argyll/
 
 # common colorspaces
-%{_datadir}/color/icc/Argyll/
+#%{_datadir}/color/icc/Argyll/
 
 # so we can display at least something in the CMYK dropdown
 #%{_datadir}/color/icc/Fogra27L.icc
