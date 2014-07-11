@@ -1,7 +1,7 @@
 Summary:	Color profiles to be used in color management aware applications
 Name:		shared-color-profiles
 Version:	0.1.6
-Release:	6
+Release:	7
 URL:		http://github.com/hughsie/shared-color-profiles
 Source0:	http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.xz
 License:	GPLv2+ and Public Domain
